@@ -13,3 +13,12 @@ python3 -m venv venv # Create virtual env
 source venv/bin/activate
 pip3 install -r requirements.txt
 ```
+
+## Notebook Breakdown
+
+- `data_cleaning_preprocessing.ipynb`: Contains all relevant logic to perform data cleaning and pre-processing steps, including null-value removal, one-hot encoding, feature selection and feature engineering using PCA
+- The notebooks below contain the training implementations and corresponding visualizations for model training:
+  - `knn_classifier.ipynb`: Contains training implementation for kNN classifier
+  - `decision_tree_classififer.ipynb`: Contains training implementation for Random Forest classifier
+  - `logistc_regression_classifier.ipynb`: Contains training implementation for Logistic Regression
+  - `svm_classifer.ipynb`: Contains training implementation for Support Vector Machine (SVM) 
