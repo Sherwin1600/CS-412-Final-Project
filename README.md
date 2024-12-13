@@ -14,8 +14,15 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
+## Data Sources
+
+Dataset used: Telcom Customer Churn Dataset
+
+[https://www.kaggle.com/datasets/blastchar/telco-customer-churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
 ## Notebook Breakdown
 
+- `churnExperiment.ipynb`: Contains initial data exploration attempts
 - `data_cleaning_preprocessing.ipynb`: Contains all relevant logic to perform data cleaning and pre-processing steps, including null-value removal, one-hot encoding, feature selection and feature engineering using PCA
 - The notebooks below contain the training implementations and corresponding visualizations for model training:
   - `knn_classifier.ipynb`: Contains training implementation for kNN classifier
